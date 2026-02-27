@@ -9,13 +9,13 @@ export function RegionBlock({
 }) {
   return (
     <div className="text-center py-6">
-      <p className="text-[10px] font-semibold tracking-[0.18em] text-indigo-500 uppercase mb-2">
+      <p className="text-xs font-semibold tracking-[0.18em] text-blue-500 uppercase mb-2">
         {label}
       </p>
       <h2
         className={[
           'font-black text-slate-800 leading-none',
-          size === 'xl' ? 'text-5xl md:text-6xl' : 'text-4xl md:text-5xl',
+          size === 'xl' ? 'text-3xl md:text-5xl' : 'text-2xl md:text-4xl',
         ].join(' ')}
       >
         {name}

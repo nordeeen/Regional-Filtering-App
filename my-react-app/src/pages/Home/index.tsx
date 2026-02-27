@@ -175,7 +175,7 @@ export default function FilterPage() {
                   <RegionBlock
                     label="Provinsi"
                     name={selectedProvince.name}
-                    size="xl"
+                    size="lg"
                   />
 
                   {selectedRegency && (
@@ -184,7 +184,7 @@ export default function FilterPage() {
                       <RegionBlock
                         label="Kota / Kabupaten"
                         name={selectedRegency.name}
-                        size="xl"
+                        size="lg"
                       />
                     </>
                   )}
